@@ -11,6 +11,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  cached_network_image: ^3.4.1
+  go_router: ^16.2.0
+  flutter_dotenv: ^6.0.0
+  http: ^1.5.0
+  shared_preferences: ^2.5.3
+  google_fonts: ^6.3.0
 
 dev_dependencies:
   flutter_test:
@@ -20,3 +26,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - .env
